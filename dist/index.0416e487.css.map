@@ -1,0 +1,1 @@
+{"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","sources":["client/index.css"],"sourcesContent":["* {\r\n  box-sizing: border-box;\r\n  margin: 0px;\r\n}\r\nbody {\r\n  margin: 0;\r\n}\r\n.root {\r\n  height: 100vh;\r\n}\r\n"],"names":[],"version":3,"file":"index.0416e487.css.map","sourceRoot":"/__parcel_source_root/"}
