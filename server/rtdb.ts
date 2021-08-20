@@ -1,6 +1,6 @@
 import *as firebaseAdmin from "firebase-admin";
-import *as serviceAccount from "./key.json";
-const keyJson = require("/key.json");
+import *as serviceAccount from "./keys.json";
+const keyJson = require("/keys.json");
 
 
 
