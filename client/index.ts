@@ -10,6 +10,8 @@ import { contadorComp } from "./components/contador";
 import { initRouter } from "./router"
 import {state} from "./state"; 
 (function () {
+    const root = document.querySelector(".root");
+    initRouter(root);
     state.init();
     contadorComp();
     winComp();
@@ -20,6 +22,5 @@ import {state} from "./state";
     customText();
     scoreComp();
     button();
-    const root = document.querySelector(".root");
-    initRouter(root);
+    
 })();

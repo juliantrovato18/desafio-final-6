@@ -9,6 +9,10 @@ const routes = [
         component: initWelcomePage,
     },
     {
+        path: /\//,
+        component: initWelcomePage,
+    },
+    {
         path: /\/instructions/,
         component: initinstructionsPage,
     },

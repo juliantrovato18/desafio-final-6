@@ -1,0 +1,1 @@
+{"mappings":"AAAA,EACA,qBAEA,CACA,OAFA,QAIA,CACA,MACA,YACA","sources":["client/index.css"],"sourcesContent":["* {\r\n  box-sizing: border-box;\r\n  margin: 0px;\r\n}\r\nbody {\r\n  margin: 0;\r\n}\r\n.root {\r\n  height: 100vh;\r\n}\r\n"],"names":[],"version":3,"file":"index.6b7f83b0.css.map","sourceRoot":"../"}

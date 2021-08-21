@@ -1,13 +1,12 @@
 import *as express from "express";
 import { fs } from "./rtdb";
 import { rtdb } from "./rtdb";
-import *as cors from "cors";
 import { nanoid } from "nanoid";
 
 const app = express();
 app.use(express.static("dist"));
 app.use(express.json());
-app.use(cors());
+
 const port = process.env.PORT || 3000;
 
 const playersColl = fs.collection("players");
